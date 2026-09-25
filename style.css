@@ -7,3 +7,8 @@ Description: First theme
 Version: 1.0
 */
 
+.single {
+
+    background-color: var(--bs-gray-200);
+
+}

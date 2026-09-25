@@ -1,17 +1,9 @@
-<!DOCTYPE html>
-<html lang="es">
+<?php 
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LaColo Theme</title>
-    <?php wp_head(); ?> <!-- Activa las funciones escritas en functions.php, como la hoja de estilo -->
-</head>
+get_header( );   
 
-<body>
-    <?php wp_body_open(); ?> <!--Esta función activa el body de wordpress, y es necesario agregarla en el
+?> 
 
-                        index.php para que funcione correctamente.-->
 
     <div class="container">
         <div class="row justify-content-center">
@@ -33,6 +25,8 @@
 
         </div>
     </div>
+
+    <?php get_footer(); ?>
 
 </body>
 
